@@ -15,7 +15,9 @@ These notebooks and scripts allow you to download and pre-process data, create a
 
 * **mix_mhc_calculate_scores.py** - Script for calculating metrics and scores using MixMHC2pred.
 
-* **calculate_scores_for_all_models.py** - read all sorted trained models (binders and non-binders) and also random model and calculate two types of metrics, one for random peptides as null distribution and another one for non-binders as null distribution using conditional probability scoring function. 
+* **calculate_scores_for_all_models.py** - read all sorted trained models (binders and non-binders) and also random model and calculate two types of metrics, one for random peptides as null distribution and another one for non-binders as null distribution using conditional probability scoring function.
+* **evaluation.ipynb** - File with calculation of binding affinity of validation data (HMM best combination models, MixMHC2pred, MetMHCIIpan)
+
 
 * **boxplots.ipynb** - Read all scores and metrics and create boxplotes and ROC curves. 
 
